@@ -1,0 +1,38 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Logs and debugging files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit-specific
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled or built artifacts
+*.egg-info/
+build/
+dist/
+
+# Ignore package manager lock files (optional, depends on your workflow)
+poetry.lock
+Pipfile.lock
